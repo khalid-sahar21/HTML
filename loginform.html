@@ -1,0 +1,23 @@
+<html>
+    <title>login form</title>
+    <body>
+        <h1>Enter your loginid</h1>
+        <form name="Login">
+            <input type="text" name="loginid">
+            <input type="button" value="click" name="show" onclick="fcal()">
+
+
+        </form>
+        <script>
+            function fcal()
+            {
+                alert("ok");
+                var strid=document.login.loginid.value;
+                if( strid.lenght ==0)
+                {
+                    alert("empty");
+                }
+            }
+        </script>
+    </body>
+</html>
